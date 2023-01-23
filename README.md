@@ -16,3 +16,12 @@ Other options considered:
 
 # Benchmark Metrics to Measure
 
+| Metric                              | Spring Boot (version 3.0.2) | Helidon | Micronaut | Quarkus | Open Liberty |
+|-------------------------------------|-----------------------------|---------|-----------|---------|--------------|
+| Compile Time                        |                             |         |           |         |              |
+| Test Time                           |                             |         |           |         |              |
+| Start Time (Production mode)        |                             |         |           |         |              |
+| Request/Sec                         |                             |         |           |         |              |
+| Response Time (in msecs)            |                             |         |           |         |              |
+| Memory Consumption  (90 Percentile) |                             |         |           |         |              |
+| CPU Consumption (90 Percentile)     |                             |         |           |         |              |
