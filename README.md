@@ -18,8 +18,8 @@ Other options considered:
 
 | Metric                              | Spring Boot (version 3.0.2) | Helidon | Micronaut | Quarkus | Open Liberty |
 |-------------------------------------|-----------------------------|---------|-----------|---------|--------------|
-| Compile Time                        |                             |         |           |         |              |
-| Test Time                           |                             |         |           |         |              |
+| Code Compile Time                   |                             |         |           |         |              |
+| Load Test Duration                  |                             |         |           |         |              |
 | Start Time (Production mode)        |                             |         |           |         |              |
 | Request/Sec                         |                             |         |           |         |              |
 | Response Time (in msecs)            |                             |         |           |         |              |
