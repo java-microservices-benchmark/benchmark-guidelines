@@ -8,8 +8,8 @@
  
  ```mermaid
  sequenceDiagram
-    HTTP Client->>+REST Controller: REST endpoint
-    REST Controller-->>-HTTP Client: JSON response
+    HTTP Client->>+REST Controller: REST endpoint (API)
+    REST Controller (API)-->>-HTTP Client: JSON response
  ```
 
 
