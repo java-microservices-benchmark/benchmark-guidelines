@@ -6,7 +6,7 @@
 
 
 # Benchmark & Monitoring Tools
-- [Grafana K6] (https://k6.io/open-source/) - for load testing
+- [Grafana K6](https://k6.io/open-source/) - for load testing
 - [Grafana Cloud](https://grafana.com/products/cloud/) - for monitoring CPU & Memory Usage
 - [Opentelemetry](https://opentelemetry.io/) - to instrument, generate, collect, and export telemetry data (metrics, logs, and traces)
 
