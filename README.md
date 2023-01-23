@@ -5,15 +5,14 @@
   - Java Runtime ([OpenJDK 11](https://github.com/openjdk)) & Heap Configuration
 
 
-# Benchmark Tool
-- Use [ApacheBench](https://httpd.apache.org/docs/2.4/programs/ab.html)
+# Benchmark & Monitoring Tools
+- [Grafana K6] (https://k6.io/open-source/) - for load testing
+- [Grafana Cloud](https://grafana.com/products/cloud/) - for monitoring CPU & Memory Usage
+- [Opentelemetry](https://opentelemetry.io/) - to instrument, generate, collect, and export telemetry data (metrics, logs, and traces)
 
-```
-ab -n 100000 -c 1000 <SERVER_ADDRESS>
-```
+Other options considered:
+- [ApacheBench](https://httpd.apache.org/docs/2.4/programs/ab.html)
+- [Hey] (https://github.com/rakyll/hey)
 
--n: The number of requests to send
--t: A duration in seconds after which ab will stop sending requests
--c: The number of concurrent requests to make
+# Benchmark Metrics to Measure
 
-# Benchmark Tests
