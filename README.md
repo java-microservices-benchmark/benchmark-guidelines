@@ -9,7 +9,7 @@
  ```mermaid
  sequenceDiagram
     HTTP Client->>+REST Controller (API): REST endpoint
-    REST Controller (API)-->Service: mimics business logic
+    REST Controller (API)-->+Service: mimics business logic
     Service-->>-REST Controller (API): service reponse (java to json)
     REST Controller (API)-->>-HTTP Client: JSON response
  ```
