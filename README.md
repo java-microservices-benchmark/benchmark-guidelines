@@ -3,8 +3,8 @@
 - Identical enviornment in terms of Compute, Network and Storage for all Java frameworks including:
   - Cloud environment (AWS Resources)
   - Java Runtime ([OpenJDK 11](https://github.com/openjdk)) & Heap Configuration
- - The application business logic will remain same across all the frameworks.
- - The application flow will remain the same across all the frameworks (as shown below) with induced latency of 100ms:
+  - The application business logic will remain same across all the frameworks.
+  - The application flow will remain the same across all the frameworks (as shown below) with induced latency of 100ms:
  
  ```mermaid
  sequenceDiagram
